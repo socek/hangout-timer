@@ -23,6 +23,6 @@ var include = (function(){
 gadgets.util.registerOnLoadHandler(function(){
 	gapi.hangout.onApiReady.add(function(eventObj) {
 		if (eventObj.isApiReady)
-			include("//hangout-timer-app.appspot.com/src/app.js?_t="+Date.now());
+			include("//socek.org/hgtimer/src/app.js?_t="+Date.now());
 	});
 });

@@ -5,14 +5,14 @@
  * the License at
  *
  * http://www.apache.org/licenses/LICENSE-2.0
- *	
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License
 -->
-	<ModulePrefs title="Hangout Timer">
+	<ModulePrefs title="Socek's Hangout Timer">
 		<Require feature="rpc" />
 		<Require feature="views" />
 		<Require feature="locked-domain" />
@@ -26,13 +26,16 @@
 	</head>
 	<body>
 
-		<h3>Hangout Timer</h3>
+		<h3>Socek's Hangout Timer</h3>
 		<p>You can close this panel by clicking on the Hourglass icon, on the app list (left of the screen).<p>
 
 		<button id="start30s">start 30s</button>
 		<button id="start1m">start 1mn</button>
 		<button id="start2m">start 2mn</button>
 		<button id="start5m">start 5mn</button>
+        <button id="start10m">start 10mn</button>
+        <button id="start15m">start 15mn</button>
+        <button id="start20m">start 20mn</button>
 		<button id="stop">stop</button>
 
 		<br>
@@ -40,11 +43,14 @@
 		<button id="big1m">big 1mn</button>
 		<button id="big2m">big 2mn</button>
 		<button id="big5m">big 5mn</button>
+        <button id="big10m">big 10mn</button>
+        <button id="big15m">big 15mn</button>
+        <button id="big20m">big 20mn</button>
 
 		<canvas id="img" width="640" height="360" style="display:none;"></canvas>
 
 		<script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-		<script src="//hangout-timer-app.appspot.com/src/loader.js"></script>
+		<script src="//socek.org/hgtimer/src/loader.js"></script>
 
 	</body>
 </html>
