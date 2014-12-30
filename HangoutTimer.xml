@@ -50,7 +50,7 @@
 		<canvas id="img" width="640" height="360" style="display:none;"></canvas>
 
 		<script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-		<script src="//socek.org/hgtimer/src/loader.js"></script>
+		<script src="//stone-bindery-774.appspot.com/src/loader.js"></script>
 
 	</body>
 </html>

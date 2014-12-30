@@ -23,6 +23,6 @@ var include = (function(){
 gadgets.util.registerOnLoadHandler(function(){
 	gapi.hangout.onApiReady.add(function(eventObj) {
 		if (eventObj.isApiReady)
-			include("//socek.org/hgtimer/src/app.js?_t="+Date.now());
+			include("//stone-bindery-774.appspot.com/src/app.js?_t="+Date.now());
 	});
 });

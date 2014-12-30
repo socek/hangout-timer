@@ -12,7 +12,7 @@ function HangoutOverlay(){
 	};
 }
 
-include("//socek.org/hgtimer/src/Hourglass.js?_t="+Date.now(), function(){
+include("//stone-bindery-774.appspot.com/src/Hourglass.js?_t="+Date.now(), function(){
 	var canvas = document.getElementById("img"),
 		overlay = new HangoutOverlay(),
 		stopwatch = new Stopwatch();
